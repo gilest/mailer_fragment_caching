@@ -42,7 +42,7 @@ end
 Use cached fragments in your mailer templates, just like regular views.
 
 ```
-<%= cache @thing do %>
+<% cache @thing do %>
   <%= render @thing %>
 <% end %>
 ```
