@@ -3,7 +3,7 @@ Mailer Fragment Caching
 
 Use Rails fragment caching from within your mailers. 
 
-Very much a work in progress, I have only used tried it with Rails 4.0.0 and Ruby 2.
+Very much a work in progress, apparently works in Rails 3.2 and Rails 4.
 
 # Installation
 
