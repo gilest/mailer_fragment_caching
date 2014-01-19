@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'mailer_fragment_caching'
-  s.version     = '0.0.2'
-  s.date        = '2013-07-09'
+  s.version     = '0.0.3'
+  s.date        = '2014-01-19'
   s.summary     = "Rails fragment caching from within mailers"
   s.description = "Rails fragment caching from within mailers"
   s.authors     = ["Giles Thompson"]
