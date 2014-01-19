@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://github.com/gilest/mailer_fragment_caching'
 
-  s.add_dependency('rails', '~>4.0.0')
+  s.add_dependency('rails', '>=3.0.0')
 end
