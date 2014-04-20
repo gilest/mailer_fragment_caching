@@ -27,7 +27,7 @@ And configure your cache store as your please:
 
 Include the module within your mailer file.
 
-```
+```ruby
 class CoolMailer
 
   include MailerFragmentCaching
@@ -41,7 +41,7 @@ end
 
 Use cached fragments in your mailer templates, just like regular views.
 
-```
+```erb
 <% cache @thing do %>
   <%= render @thing %>
 <% end %>
