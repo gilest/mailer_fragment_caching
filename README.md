@@ -1,9 +1,8 @@
-Mailer Fragment Caching
-=======================
+# Mailer Fragment Caching
 
-Use Rails fragment caching from within your mailers. 
+Allows the use of Rails fragment caching helpers from within mailers.
 
-Very much a work in progress, apparently works in Rails 3.2 and Rails 4.
+Tested in Rails 3 and 4. This feature has now been [added to Rails 5](https://github.com/rails/rails/pull/22825).
 
 # Installation
 
@@ -31,7 +30,7 @@ Include the module within your mailer file.
 class CoolMailer
 
   include MailerFragmentCaching
-  
+
   def cool_email
     ...
   end
