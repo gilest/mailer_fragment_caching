@@ -2,7 +2,7 @@
 
 Allows the use of Rails fragment caching helpers from within mailers.
 
-Tested in Rails 3 and 4. This feature has now been [added to Rails 5](https://github.com/rails/rails/pull/22825).
+Tested in Rails `3.2`, `4.0`, `4.1` and `4.2`. If you're using **Rails 5** then you don't need this gem as this feature has now been [added to Rails 5](https://github.com/rails/rails/pull/22825).
 
 # Installation
 
@@ -27,7 +27,7 @@ And configure your cache store as your please:
 Include the module within your mailer file.
 
 ```ruby
-class CoolMailer
+class CoolMailer < ActionMailer::Base
 
   include MailerFragmentCaching
 
