@@ -1,0 +1,5 @@
+Static content
+<% cache 'test_key', skip_digest: true do %>
+  <%= 'Initial value' %>
+  <%= Time.now %>
+<% end %>

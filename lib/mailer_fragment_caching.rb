@@ -1,3 +1,6 @@
+require 'rails'
+require 'action_controller'
+
 module MailerFragmentCaching
 
   include ActionController::Caching::Fragments
@@ -38,4 +41,5 @@ module MailerFragmentCaching
       yield if block_given?
     end
   end
+
 end

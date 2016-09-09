@@ -1,1 +1,6 @@
+Gemfile.lock
 *.gem
+spec/dummy/vendor
+spec/dummy/log/*.log
+spec/dummy/tmp/
+gemfiles/*.lock
